@@ -1,0 +1,14 @@
+class userIN:
+    def __init__(self, username=None, password=None):
+        self.username = username
+        self.password = password
+
+class housePurchases:
+    def display(self, realty=None, loan=None, title=None, holding=None, creditCard=None, expirationDate=None, lastThree=None):
+        self.realty = RealtyFee
+        self.loan = LoanFee
+        self.title = TitleFee
+        self.holding = HoldingFee
+        self.creditCard = creditCard
+        self.expirationDate = expirationDate
+        self.lastThree = lastThree
